@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&family=Space+Grotesk:wght@500;700&display=swap');
+
+body {
+    background-color: #040f2b;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 72px;
+}
+
+
+.title {
+    margin-top: 60px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    background: linear-gradient(180deg, #c963f8 0%, rgba(129, 50, 165, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+
+.suptitle {
+    margin-top: 40px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.blockki {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.nfft-img  {
+    padding: 33px 91px 0 91px;
+}
+
+.block1 {
+    background: #30384D;
+    max-width: 287px;
+    min-height: 259px;
+    border-radius: 5px;
+}
+
+
+.blo4ok1 {
+    text-decoration: none;
+    
+}
+
+.title-block1 {
+    margin-top: 17px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.suptitle-block1 {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    
+}
+
+
+.block2 {
+    background: #30384D;
+    max-width: 287px;
+    min-height: 259px;
+    border-radius: 5px;
+}
+
+.blo4ok2 {
+    text-decoration: none;
+}
+
+
+
+.title-block2 {
+    margin-top: 17px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.suptitle-block2 {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+}
+
+
+.block3 {
+    background: #30384D;
+    max-width: 287px;
+    min-height: 259px;
+    border-radius: 5px;
+}
+
+.blo4ok3 {
+    text-decoration: none;
+}
+
+
+.title-block3 {
+    margin-top: 17px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+.suptitle-block3 {
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.button-pink {
+    margin-right: 20px;
+}
+
+
+.btn-pink {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #E5E5E5;
+    text-decoration: none;
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    border-radius: 5px;
+    padding: 10px 30px 12px 30px;
+    transition: color 0.2s linear;
+}
+
+.btn-pink:hover {
+    color: #370c47;
+}
+
+.btn-transp {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 8px 30px 12px 30px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #E5E5E5;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.btn-transp:hover {
+    color: #651883;
+}
+
+
+.creators {
+    margin-top: 100px;
+}
+
+.creators-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    background: linear-gradient(180deg, #B469D8 0%, rgba(180, 105, 216, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.creators-suptitle {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+}
+
+.crt-cart1 {
+    max-width: 288px;
+    height: 63px;
+    background: #30384D;
+    border-radius: 5px;
+}
+
+
+.crt1-img {
+    padding: 9px 209px 9px 9px;
+}
+
+.title-cr1 {
+    position: relative;
+    left: 90px;
+    bottom: 45px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.suptitle-cr1 {
+    display: flex;
+}
+
+.ellip {
+    position: relative;
+    left: 90px;
+    bottom: 45px;
+    margin-right: 2px;
+}
+
+.sup-text {
+    position: relative;
+    left: 90px;
+    bottom: 40px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+
+.carti {
+    margin-top: 60px;
+    display: grid;
+    grid-template-areas: "a b c"
+                        "d e f"
+                        "g o s";
+    grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
+    grid-column-gap: 450px;
+    grid-row-gap: 40px;
+}
+
+.buto {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.but {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 8px 26px 12px 26px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #E5E5E5;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.but:hover {
+    color: #651883;
+}
+
+.block-info {
+    background: #1E2B4B;
+    width: 1730px;
+    height: 261px;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 5px;
+}
+
+
+.block {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    
+}
+
+h2 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.butonn {
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #E5E5E5;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.butonn:hover {
+    color: #651883;
+}
+
+.butom {
+    padding-top: 30px;
+}
+
+.information {
+    margin-top: 165px;
+    margin-bottom: 100px;
+}
+
+.inf-title {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+    color: #E5E5E5;
+}
+
+.inf-suptitle {
+    padding-top: 10px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+/* whatsapp */
+.whatsapp {
+    margin-top: 30px;
+}
+
+.what {
+    position: relative;
+    right: 29px;
+    bottom: 7px;
+}
+
+.whats {
+    text-decoration: none;
+}
+/* end whatsapp */
+
+/* facebook */
+.facebook {
+    position: relative;
+    left: 47px;
+    bottom: 35px;
+
+}
+
+.facebo {
+    text-decoration: none;
+}
+
+.face {
+    position: relative;
+    right: 24px;
+    bottom: 7px;
+}
+
+/* end facebook */
+
+/* inst */
+.instagram {
+    position: relative;
+    left: 95px;
+    bottom: 70px;
+}
+
+.insta {
+    text-decoration: none;
+}
+
+.inst {
+    position: relative;
+    right: 27px;
+    bottom: 8px;
+}
+/* end inst */
+
+/* yt */
+.youtube {
+    position: relative;
+    left: 144px;
+    bottom: 104px;
+    
+}
+
+
+.youtub {
+    text-decoration: none;
+}
+
+.yt {
+    position: relative;
+    right: 28px;
+    bottom: 10px;
+}
+/* end yt */
+
+.footer-inf {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545C71;
+}
+
+.right {
+    display: flex;
+    justify-content: baseline;
+}
+
+.inform-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.colomn_a {
+    position: relative;
+    margin-right: 55px;
+    line-height: 28px;
+    transition: color 0.2s linear;
+}
+
+.colomn_a:hover {
+    color: #651883;
+}
+
+.bt1 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.2s linear;
+}
+
+.bt1:hover {
+    color: #651883;
+}
+
+.colomn_b {
+    position: relative;
+    margin-right: 55px;
+    line-height: 28px;
+}
+
+.colomn_c {
+    position: relative;
+    margin-right: 55px;
+    line-height: 28px;
+}
+
+span {
+    font-size: 20px;
+}
+
+.footer-link {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.l-footer-link {
+    position: relative;
+    margin-right: 31px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545C71;
+}
+
+.right-footer-inf {
+    display: flex;
+    justify-content: baseline;
+}
+
+.first {
+    position: relative;
+    margin-right: 31px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545C71;
+}
+
+.second {
+    position: relative;
+    margin-right: 31px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #545C71;
+}
+
+.footer {
+    bottom: 200px;
+}

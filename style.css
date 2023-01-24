@@ -665,3 +665,15 @@ span {
 .btn-button:hover {
     color: #962d90;
 }
+
+
+
+@media(max-width: 1700px) {
+    .right-content {
+       left: 71%;
+    }
+
+    .cards {
+        grid-column-gap: 250px;
+    }
+}

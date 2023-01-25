@@ -603,3 +603,13 @@ span {
 .footer {
     bottom: 200px;
 }
+
+@media(max-width: 1500px) {
+    .carti {
+        grid-column-gap: 240px;
+    }
+
+    .block-info {
+        max-width: 1330px;
+    }
+}

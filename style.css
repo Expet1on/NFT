@@ -448,6 +448,11 @@ body {
     min-height: 323px;
     background: #3B5971;
     border-radius: 10px;
+    transition: color 0.2s linear;
+}
+
+.card1:hover {
+    color: #962d90;
 }
 
 .cr1 {

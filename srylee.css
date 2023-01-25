@@ -308,7 +308,7 @@ body {
                         "d e f"
                         "g o s";
     grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
-    grid-column-gap: 450px;
+    grid-column-gap: 460px;
     grid-row-gap: 40px;
 }
 
@@ -604,43 +604,35 @@ span {
     bottom: 2000px;
 }
 
-@media(max-width: 1920px) {
-    .carti {
-        grid-column-gap: 260px;
-    }
 
-    .block-info {
-        max-width: 1330px;
-    }
-}
 
 @media(max-width: 1600px) {
     .carti {
-        grid-column-gap: 235px;
+        grid-column-gap: 300px;
     }
 
     .block-info {
-        max-width: 1330px;
+        max-width: 1430px;
     }
 }
 
 @media(max-width: 1400px) {
     .carti {
-        grid-column-gap: 170px;
+        grid-column-gap: 180px;
     }
 
     .block-info {
-        max-width: 1180px;
+        max-width: 1235px;
     }
 }
 
 
 @media(max-width: 1200px) {
     .carti {
-        grid-column-gap: 90px;
+        grid-column-gap: 105px;
     }
 
     .block-info {
-        max-width: 1030px;
+        max-width: 1040px;
     }
 }

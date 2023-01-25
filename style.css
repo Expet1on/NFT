@@ -157,7 +157,7 @@ body {
     max-width: 404px;
     min-height: 494px;
     background: #3B5971;
-    left: 1340px;
+    left: 1360px;
     top: -710px;
     border-radius: 10px;
 }
@@ -545,7 +545,7 @@ body {
     grid-template-areas: "a b c"
                         "d e f";
     grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
-    grid-column-gap: 450px;
+    grid-column-gap: 460px;
     grid-row-gap: 58px;
 }
 
@@ -673,23 +673,15 @@ span {
 
 
 
-@media(max-width: 1920px) {
-    .right-content {
-       left: 71%;
-    }
 
-    .cards {
-        grid-column-gap: 270px;
-    }
-}
 
 @media(max-width: 1600px) {
     .right-content {
-       left: 69%;
+       left: 72%;
     }
 
     .cards {
-        grid-column-gap: 240px;
+        grid-column-gap: 310px;
     }
 }
 
@@ -697,22 +689,22 @@ span {
 
 @media(max-width: 1400px) {
     .right-content {
-       left: 69%;
+       left: 68%;
     }
 
     .cards {
-        grid-column-gap: 170px;
+        grid-column-gap: 207px;
     }
 }
 
 
 @media(max-width: 1200px) {
     .right-content {
-       left: 60%;
+       left: 62%;
     }
 
     .cards {
-        grid-column-gap: 90px;
+        grid-column-gap: 100px;
     }
 
     .header-logo {

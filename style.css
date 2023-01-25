@@ -673,12 +673,49 @@ span {
 
 
 
-@media(max-width: 1700px) {
+@media(max-width: 1920px) {
     .right-content {
        left: 71%;
     }
 
     .cards {
-        grid-column-gap: 250px;
+        grid-column-gap: 270px;
+    }
+}
+
+@media(max-width: 1600px) {
+    .right-content {
+       left: 69%;
+    }
+
+    .cards {
+        grid-column-gap: 240px;
+    }
+}
+
+
+
+@media(max-width: 1400px) {
+    .right-content {
+       left: 69%;
+    }
+
+    .cards {
+        grid-column-gap: 170px;
+    }
+}
+
+
+@media(max-width: 1200px) {
+    .right-content {
+       left: 60%;
+    }
+
+    .cards {
+        grid-column-gap: 90px;
+    }
+
+    .header-logo {
+        display: none;
     }
 }

@@ -601,15 +601,46 @@ span {
 }
 
 .footer {
-    bottom: 200px;
+    bottom: 2000px;
 }
 
-@media(max-width: 1500px) {
+@media(max-width: 1920px) {
     .carti {
-        grid-column-gap: 240px;
+        grid-column-gap: 260px;
     }
 
     .block-info {
         max-width: 1330px;
+    }
+}
+
+@media(max-width: 1600px) {
+    .carti {
+        grid-column-gap: 235px;
+    }
+
+    .block-info {
+        max-width: 1330px;
+    }
+}
+
+@media(max-width: 1400px) {
+    .carti {
+        grid-column-gap: 170px;
+    }
+
+    .block-info {
+        max-width: 1180px;
+    }
+}
+
+
+@media(max-width: 1200px) {
+    .carti {
+        grid-column-gap: 90px;
+    }
+
+    .block-info {
+        max-width: 1030px;
     }
 }

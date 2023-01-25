@@ -608,7 +608,7 @@ span {
 
 @media(max-width: 1600px) {
     .carti {
-        grid-column-gap: 300px;
+        grid-column-gap: 270px;
     }
 
     .block-info {

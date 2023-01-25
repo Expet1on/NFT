@@ -677,11 +677,11 @@ span {
 
 @media(max-width: 1600px) {
     .right-content {
-       left: 72%;
+       left: 71%;
     }
 
     .cards {
-        grid-column-gap: 310px;
+        grid-column-gap: 270px;
     }
 }
 

@@ -11,6 +11,10 @@ body {
 }
 
 
+a {
+    text-decoration: none;
+}
+
 .title {
     margin-top: 60px;
     font-family: 'DM Mono';
@@ -62,8 +66,9 @@ body {
 
 .blo4ok1 {
     text-decoration: none;
-    
 }
+
+
 
 .title-block1 {
     margin-top: 17px;
@@ -259,8 +264,13 @@ body {
     height: 63px;
     background: #30384D;
     border-radius: 5px;
+    transition: opacity .7s ease;
 }
 
+
+.crt-cart1:hover {
+    background-color: #C367E6;
+}
 
 .crt1-img {
     padding: 9px 209px 9px 9px;
@@ -311,6 +321,9 @@ body {
     grid-column-gap: 460px;
     grid-row-gap: 40px;
 }
+
+
+
 
 .buto {
     margin-top: 60px;

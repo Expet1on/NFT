@@ -61,6 +61,11 @@ a {
     max-width: 287px;
     min-height: 259px;
     border-radius: 5px;
+    transition: color 0.2s linear;
+}
+
+.block1:hover {
+    background-color: #651883;
 }
 
 
@@ -100,10 +105,15 @@ a {
 
 
 .block2 {
-    background: #30384D;
+    background-color: #30384D;
     max-width: 287px;
     min-height: 259px;
     border-radius: 5px;
+    transition: color 0.2s linear;
+}
+
+.block2:hover {
+    background-color: #651883;
 }
 
 .blo4ok2 {
@@ -145,7 +155,14 @@ a {
     max-width: 287px;
     min-height: 259px;
     border-radius: 5px;
+    transition: color 0.2s linear;
 }
+
+
+.block3:hover {
+    background-color: #651883;
+}
+
 
 .blo4ok3 {
     text-decoration: none;
